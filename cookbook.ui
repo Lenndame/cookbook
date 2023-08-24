@@ -67,45 +67,21 @@
        </rect>
       </property>
       <layout class="QGridLayout" name="gridlayout_s">
-       <item row="8" column="0">
-        <widget class="QLabel" name="lbl_bewertung_s">
+       <item row="5" column="0">
+        <widget class="QLabel" name="lbl_jahr_s">
          <property name="text">
-          <string>Bewertung</string>
+          <string>Jahreszeit</string>
          </property>
         </widget>
        </item>
-       <item row="1" column="0">
-        <widget class="QLabel" name="lbl_seite_s">
+       <item row="10" column="0">
+        <widget class="QLabel" name="lbl_zutaten_s">
          <property name="text">
-          <string>Buch und Seite</string>
+          <string>Zutaten</string>
          </property>
         </widget>
        </item>
-       <item row="6" column="1">
-        <widget class="QCheckBox" name="cb_cook_s">
-         <property name="text">
-          <string>Bereits Gekocht </string>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="4">
-        <widget class="QCheckBox" name="cb_spring_s">
-         <property name="text">
-          <string>Frühling</string>
-         </property>
-        </widget>
-       </item>
-       <item row="0" column="1" colspan="4">
-        <widget class="QLineEdit" name="le_name_s">
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-        </widget>
-       </item>
-       <item row="1" column="1" colspan="4">
+       <item row="1" column="2" colspan="4">
         <widget class="QLineEdit" name="le_seite_s">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
@@ -115,17 +91,100 @@
          </property>
         </widget>
        </item>
-       <item row="9" column="1" colspan="4">
-        <widget class="QTextEdit" name="txte_kommentar_s">
+       <item row="0" column="0">
+        <widget class="QLabel" name="lbl_name_s">
+         <property name="text">
+          <string>Name</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QCheckBox" name="cb_name_s">
          <property name="sizePolicy">
-          <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
            <horstretch>0</horstretch>
            <verstretch>0</verstretch>
           </sizepolicy>
          </property>
+         <property name="text">
+          <string/>
+         </property>
         </widget>
        </item>
-       <item row="8" column="1" colspan="4">
+       <item row="5" column="4">
+        <widget class="QCheckBox" name="cb_winter_s">
+         <property name="text">
+          <string>Winter</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="2">
+        <widget class="QCheckBox" name="cb_summer_s">
+         <property name="text">
+          <string>Sommer</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="1">
+        <widget class="QCheckBox" name="cb_kommentar_s">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="1">
+        <widget class="QCheckBox" name="cb_zutaten_s">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QCheckBox" name="cb_jahr_s">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QCheckBox" name="cb_seite_s">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="5">
+        <widget class="QCheckBox" name="cb_spring_s">
+         <property name="text">
+          <string>Frühling</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="2" colspan="4">
         <widget class="QLineEdit" name="le_bewertung_s">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
@@ -135,7 +194,7 @@
          </property>
         </widget>
        </item>
-       <item row="11" column="4">
+       <item row="11" column="5">
         <widget class="QPushButton" name="pb_suchen_s">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
@@ -154,21 +213,7 @@
          </property>
         </widget>
        </item>
-       <item row="0" column="0">
-        <widget class="QLabel" name="lbl_name_s">
-         <property name="text">
-          <string>Name</string>
-         </property>
-        </widget>
-       </item>
-       <item row="5" column="2">
-        <widget class="QCheckBox" name="cb_autumn_s">
-         <property name="text">
-          <string>Herbst</string>
-         </property>
-        </widget>
-       </item>
-       <item row="11" column="3">
+       <item row="11" column="4">
         <widget class="QPushButton" name="pb_exit_s">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
@@ -187,6 +232,23 @@
          </property>
         </widget>
        </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="lbl_seite_s">
+         <property name="text">
+          <string>Buch und Seite</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2" colspan="4">
+        <widget class="QLineEdit" name="le_name_s">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+        </widget>
+       </item>
        <item row="9" column="0">
         <widget class="QLabel" name="lbl_kommentar_s">
          <property name="text">
@@ -194,13 +256,27 @@
          </property>
         </widget>
        </item>
-       <item row="10" column="1" colspan="4">
+       <item row="6" column="2">
+        <widget class="QCheckBox" name="cb_cook_s">
+         <property name="text">
+          <string>Bereits Gekocht </string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="0">
+        <widget class="QLabel" name="lbl_bewertung_s">
+         <property name="text">
+          <string>Bewertung</string>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="2" colspan="4">
         <widget class="QListWidget" name="lw_zutat_s">
          <property name="enabled">
           <bool>true</bool>
          </property>
          <property name="sizePolicy">
-          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+          <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
            <horstretch>0</horstretch>
            <verstretch>0</verstretch>
           </sizepolicy>
@@ -214,30 +290,31 @@
         </widget>
        </item>
        <item row="5" column="3">
-        <widget class="QCheckBox" name="cb_winter_s">
+        <widget class="QCheckBox" name="cb_autumn_s">
          <property name="text">
-          <string>Winter</string>
+          <string>Herbst</string>
          </property>
         </widget>
        </item>
-       <item row="5" column="1">
-        <widget class="QCheckBox" name="cb_summer_s">
-         <property name="text">
-          <string>Sommer</string>
+       <item row="9" column="2" colspan="4">
+        <widget class="QTextEdit" name="txte_kommentar_s">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Minimum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
          </property>
-        </widget>
-       </item>
-       <item row="5" column="0">
-        <widget class="QLabel" name="lbl_jahr_s">
-         <property name="text">
-          <string>Jahreszeit</string>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>150</height>
+          </size>
          </property>
-        </widget>
-       </item>
-       <item row="10" column="0">
-        <widget class="QLabel" name="lbl_zutaten_s">
-         <property name="text">
-          <string>Zutaten</string>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>192</height>
+          </size>
          </property>
         </widget>
        </item>
@@ -254,7 +331,7 @@
      <attribute name="title">
       <string>DB Erstellen</string>
      </attribute>
-     <widget class="QWidget" name="">
+     <widget class="QWidget" name="layoutWidget">
       <property name="geometry">
        <rect>
         <x>20</x>
@@ -298,12 +375,12 @@
        <item row="5" column="1">
         <widget class="QCheckBox" name="cb_cook_w">
          <property name="text">
-          <string>CheckBox</string>
+          <string>wurde schon gekocht!</string>
          </property>
         </widget>
        </item>
        <item row="9" column="4">
-        <widget class="QPushButton" name="pb_exit_w">
+        <widget class="QPushButton" name="pb_write_w">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
            <horstretch>0</horstretch>
@@ -342,25 +419,6 @@
         <widget class="QCheckBox" name="cb_winter_w">
          <property name="text">
           <string>Winter</string>
-         </property>
-        </widget>
-       </item>
-       <item row="8" column="1" colspan="4">
-        <widget class="QListWidget" name="lw_zutat_w">
-         <property name="enabled">
-          <bool>true</bool>
-         </property>
-         <property name="sizePolicy">
-          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-           <horstretch>0</horstretch>
-           <verstretch>0</verstretch>
-          </sizepolicy>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Plain</enum>
-         </property>
-         <property name="sizeAdjustPolicy">
-          <enum>QAbstractScrollArea::AdjustToContents</enum>
          </property>
         </widget>
        </item>
@@ -437,7 +495,7 @@
         </widget>
        </item>
        <item row="9" column="3">
-        <widget class="QPushButton" name="pb_suchen_w">
+        <widget class="QPushButton" name="pb_exit_w">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
            <horstretch>0</horstretch>
@@ -461,6 +519,9 @@
           <string>Zutaten</string>
          </property>
         </widget>
+       </item>
+       <item row="8" column="1" colspan="4">
+        <widget class="QTextEdit" name="txte_zutaten_w"/>
        </item>
       </layout>
      </widget>
